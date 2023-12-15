@@ -1,0 +1,14 @@
+docker run -d nginx
+docker run -d gitea/gitea
+docker ps
+touch Dockerfile
+touch main.py
+nano main.py
+nano Dockerfile
+touch docker-compose.yml
+nano docker-compose.yml
+git add docker-compose.yml
+git add Dockerfile
+git add main.py
+git commit -m 'Task Complete'
+git push origin main
